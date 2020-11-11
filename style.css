@@ -1,0 +1,25 @@
+body {
+    max-width: 100%;
+    margin:0;
+}
+
+header {
+    max-width: 100%;
+    background-color: black;
+    height: 3.125em;
+
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: White;
+    display: inline-block;
+    margin-top: 0.735em;
+}
+
+header a:nth-child(1) { margin-left: 1.875em; }
+
+header a:nth-child(2) {float: right; margin-right: 1.875em; }
+
+header a:nth-child(2):hover { color: grey; }
